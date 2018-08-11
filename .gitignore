@@ -1,2 +1,5 @@
 # OS Artifacts
 .DS_Store
+
+# PyCharm
+.idea/
