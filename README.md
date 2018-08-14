@@ -1,7 +1,9 @@
-# aws-encryption-sdk-test-vectors
+# Test Vectors for the AWS Encryption SDK
 
 This repository contains known-good static test files for testing compatibility of AWS Encryption
 SDK clients.
+
+# Legacy Vectors
 
 The `vectors` directory contains known good test vectors. These test vectors are contained
 in zip files that identify the client and version that were used to generate them.
@@ -27,3 +29,10 @@ ciphertext files relative to the zip file root.  The implied information in the 
 filepath is not necessary in order to run the test case. The ciphertext files are broken
 up simply to ease any necessary human interaction and to guard against possible filesystem
 limits.
+
+
+# New Vectors
+
+The contents of `vectors/full-message-decrypt` conform to the new rules for test vectors.
+An implementation of these rules can be found [here](https://github.com/aws/aws-encryption-sdk-python/tree/master/test_vector_generator)
+and this readme will be updated soon once the rules themselves are published.
