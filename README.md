@@ -34,5 +34,5 @@ limits.
 # New Vectors
 
 The contents of `vectors/full-message-decrypt` conform to the new rules for test vectors.
-An implementation of these rules can be found [here](https://github.com/aws/aws-encryption-sdk-python/tree/master/test_vector_generator)
+An implementation of these rules can be found [here](https://github.com/aws/aws-encryption-sdk-python/tree/master/test_vector_handlers)
 and this readme will be updated soon once the rules themselves are published.
