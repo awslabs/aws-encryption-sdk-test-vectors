@@ -3,10 +3,16 @@
 This repository contains known-good static test files for testing compatibility of AWS Encryption
 SDK clients.
 
+# Vectors
+
+The contents of `vectors/awses-decrypt` conform to the new rules for test vectors.
+An implementation of these rules can be found [here](https://github.com/aws/aws-encryption-sdk-python/tree/master/test_vector_handlers)
+and this readme will be updated soon once the rules themselves are published.
+
 # Legacy Vectors
 
-The `vectors` directory contains known good test vectors. These test vectors are contained
-in zip files that identify the client and version that were used to generate them.
+The `vectors/awses-legacy` directory contains known good test vectors using the legacy format.
+These test vectors are contained in zip files that identify the client and version that were used to generate them.
 
 The zip filename format used is `IMPLEMENTATION-VERSION.zip`. So, for example, a zip file
 containing test vectors generated using version 1.3.0 of the AWS Encryption SDK for Python
@@ -29,10 +35,3 @@ ciphertext files relative to the zip file root.  The implied information in the 
 filepath is not necessary in order to run the test case. The ciphertext files are broken
 up simply to ease any necessary human interaction and to guard against possible filesystem
 limits.
-
-
-# New Vectors
-
-The contents of `vectors/full-message-decrypt` conform to the new rules for test vectors.
-An implementation of these rules can be found [here](https://github.com/aws/aws-encryption-sdk-python/tree/master/test_vector_handlers)
-and this readme will be updated soon once the rules themselves are published.
