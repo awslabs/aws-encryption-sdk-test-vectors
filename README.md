@@ -5,7 +5,8 @@ SDK clients.
 
 # Vectors
 
-The contents of `vectors/awses-decrypt` conform to the new rules for test vectors.
+The contents of `vectors/awses-decrypt` conform to the new rules for test vectors
+[as defined here](https://github.com/awslabs/aws-crypto-tools-test-vector-framework).
 An implementation of these rules can be found [here](https://github.com/aws/aws-encryption-sdk-python/tree/master/test_vector_handlers)
 and this readme will be updated soon once the rules themselves are published.
 
