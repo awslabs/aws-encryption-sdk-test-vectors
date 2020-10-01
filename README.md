@@ -3,6 +3,8 @@
 This repository contains known-good static test files for testing compatibility of AWS Encryption
 SDK clients.
 
+[For security issue notifications, see CONTRIBUTING.md.](./CONTRIBUTING.md#security-issue-notifications)
+
 # Vectors
 
 The contents of `vectors/awses-decrypt` conform to the new rules for test vectors
